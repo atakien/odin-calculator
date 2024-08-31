@@ -27,7 +27,7 @@
     justify-content: center;
 }
 
-.calculator form input {
+.calculator div.display {
     border: 0;
     outline: 0;
     width: 96%;
@@ -39,9 +39,10 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) inset;
     cursor: pointer;
     margin-bottom: 12px;
+    background-color: transparent;
 }
 
-.calculator form button {
+.calculator button {
     border: 0;
     outline: 0;
     width: 60px;
@@ -54,11 +55,11 @@
     cursor: pointer;
 }
 
-.calculator form button.equal{
+.calculator button.equal{
     width: 141px;
 }
 
-.calculator form button.zero{
+.calculator button.zero{
     width: 141px;
 }
 
